@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.034" errors="0" skipped="0" tests="9" name="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest">
+<testsuite failures="0" time="0.041" errors="0" skipped="0" tests="3" name="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierParameterTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/local/java/jdk1.7.0_79/jre/lib/amd64"/>
@@ -60,13 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.007" classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testFormaterResultOK"/>
-  <testcase time="0" classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testFormaterResultNOK"/>
-  <testcase time="0" classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsPremierNOK"/>
-  <testcase time="0.001" classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsPremierLimit"/>
-  <testcase time="0" classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsNombreValideOK"/>
-  <testcase time="0" classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsNombreValideKO"/>
-  <testcase time="0.001" classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsNombreValideKONull"/>
-  <testcase time="0.003" classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsNombreValideKOLimit"/>
-  <testcase time="0.003" classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsPremierOK"/>
+  <testcase time="0.007" classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierParameterTest" name="testIsPremier[0]"/>
+  <testcase time="0.003" classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierParameterTest" name="testIsPremier[1]"/>
+  <testcase time="0.001" classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierParameterTest" name="testIsPremier[2]"/>
 </testsuite>
